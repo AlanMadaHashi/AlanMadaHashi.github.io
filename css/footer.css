@@ -1,0 +1,43 @@
+.footer {
+    background: #000000;
+}
+
+.containerFooter {
+    padding: 120px 20px 60px 20px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.footerTexto {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    color: #cccccc;
+}
+
+.footerContato li {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    color: #ffffffff;
+    margin-bottom: 30px;
+}
+
+.footerContato li a {
+    color: #ffffffff;
+}
+
+.footerCopy {
+    grid-column: 1/-1;
+    font-size: 1.125rem;
+    color: #8f8f8f;
+}
+
+@media (max-width:800px) {
+    .containerFooter {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .footerContato li {
+        font-size: 1.5rem;
+    }
+}

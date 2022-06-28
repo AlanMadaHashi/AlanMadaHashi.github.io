@@ -1,0 +1,39 @@
+.containerHeader01 {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerHeader01 h1 {
+    text-align: center;
+}
+
+.menuHeader01 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menuHeader01 a {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    padding: 10px 20px;
+    display: block;
+    color: #141414;
+}
+
+@media (max-width:800px) {
+    .containerHeader01 {
+        flex-direction: column;
+        padding: 20px;
+        gap: 40px;
+    }
+    .menuHeader01 a {
+        background-color: #f5f5f5;
+        border-radius: 4px;
+    }
+}
